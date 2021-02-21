@@ -11,7 +11,7 @@ public class Calculator {
         try {
             boolean standart = true;
             for (int i = 0; i < 10; i++) {
-                if (arRim[i].equals(arTask[0]) && arRim[i].equals(arTask[2]))
+                if (arRim[i].equals(arTask[0]) || arRim[i].equals(arTask[2]))
                     standart = false;
             }
             int a, b;
