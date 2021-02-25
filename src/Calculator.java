@@ -1,6 +1,3 @@
-import java.io.BufferedReader;
-import java.io.InputStreamReader;
-
 
 public class Calculator {
     public void arabNumbers() throws Exception {
@@ -36,8 +33,6 @@ public class Calculator {
                     throw new NumberFormatException("Числа вне диапазона: от 1 до 10");
                 }
             }
-
-
 
         } catch (RuntimeException e) {
             System.out.println("Введены некорректные данные: " + e);

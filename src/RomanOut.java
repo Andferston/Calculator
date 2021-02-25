@@ -1,6 +1,3 @@
-import javax.imageio.stream.ImageInputStream;
-import java.util.ArrayList;
-import java.util.List;
 
 public class RomanOut {
     public static void outRome(int resultInt) {
